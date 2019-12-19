@@ -1,0 +1,11 @@
+common-grpc:
+  host: localhost
+  server:
+    port: 10010
+    enabled: true
+  client:
+    enabled: true
+    retry: 1
+    loadBalanceType: 1
+server:
+  port: 8080

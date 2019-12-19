@@ -1,0 +1,12 @@
+
+common-grpc:
+  server:
+    port: 10086
+    enabled: true
+  client:
+    enabled: true
+    retry: 1
+    loadBalanceType: 1
+server:
+  port: 8081
+#  host: 114.67.76.244
