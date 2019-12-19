@@ -9,4 +9,3 @@ common-grpc:
     loadBalanceType: 1
 server:
   port: 8081
-#  host: 114.67.76.244
